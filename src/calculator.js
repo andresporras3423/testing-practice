@@ -1,3 +1,6 @@
+//https://www.valentinog.com/blog/jest/ start with jest
+//https://jestjs.io/docs/en/getting-started using jest with babel
+
 const calculator = {
     capitalize : (text)=>{
         if(	typeof(text) == 'string') return text.charAt(0).toUpperCase() + text.slice(1);
